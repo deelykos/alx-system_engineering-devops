@@ -17,3 +17,4 @@
 16-Display lines containing the pattern root and 3 lines after them in a named file
 17-Display all the lines in a named file that do not contain the pattern bin
 18-Display all lines ofa named file starting with a letter, including capitals as well
+19-Replace all characters A and c from input to Z and e respectively
