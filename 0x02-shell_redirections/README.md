@@ -16,3 +16,4 @@
 15-Display the number of lines that contain the pattern bin in a named file
 16-Display lines containing the pattern root and 3 lines after them in a named file
 17-Display all the lines in a named file that do not contain the pattern bin
+18-Display all lines ofa named file starting with a letter, including capitals as well
