@@ -3,3 +3,4 @@
 2-To display content of a named file
 3-Display content of two named files
 4-Display the last 10 lines of a named file
+5-Display the first 10 lines of a named file
