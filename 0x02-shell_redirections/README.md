@@ -23,3 +23,4 @@
 22-Write a script that displays all users and their home directories, sorted by users, based on a named file
 23-Advance one
 Write a command that finds all empty files and directories in the current directory and all sub-directories 24-Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories
+25-Decodes the acrostics that use the first letter of each line
