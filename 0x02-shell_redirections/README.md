@@ -19,3 +19,4 @@
 18-Display all lines ofa named file starting with a letter, including capitals as well
 19-Replace all characters A and c from input to Z and e respectively
 20-Create a script that removes all letters c and C from input
+21-Write a script that reverse its input
