@@ -18,3 +18,4 @@
 17-Display all the lines in a named file that do not contain the pattern bin
 18-Display all lines ofa named file starting with a letter, including capitals as well
 19-Replace all characters A and c from input to Z and e respectively
+20-Create a script that removes all letters c and C from input
