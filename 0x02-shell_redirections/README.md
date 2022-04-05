@@ -24,3 +24,4 @@
 23-Advance one
 Write a command that finds all empty files and directories in the current directory and all sub-directories 24-Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories
 25-Decodes the acrostics that use the first letter of each line
+26-Parses web servers in TSV format as input and displays the 11 hosts or IP addresses which did the most request
