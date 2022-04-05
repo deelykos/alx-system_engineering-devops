@@ -5,3 +5,4 @@
 4-Create a script that lists environment variables
 5-Create a script that lists all local variables and environment variables, and functions
 6-Create a script that creates a new local variable with BEST as the name and School as the vaule
+7-Create a script that creates a new global variable with BEST as name and School as value
