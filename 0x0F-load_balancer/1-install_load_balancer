@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Install and configure HAproxy on my lb-01 server
+sudo apt -y update
+sudo apt -y install haproxy
+
+# Make sure that HAproxy can be managed via an init script
+sudo sed -i 'aENABLED=1\n' /etc/default/haproxy
+
+# Configure HAproxy so that it send traffic to web-01 and web-02
+# Distribute requests using a roundrobin algorithm
+sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.orig
+sudo sed -i "\$a\\\nfrontend 34266-lb-01\n\tbind *:80\n\tmode http\n\tdefault_backend nginx_webservers\nbackend nginx_webservers\n\tbalance roundrobin\n\toption forwardfor\n\tserver 34266-web-01 54.157.129.183:80 check\n\tserver 34266-web-02 52.91.125.123:80 check\n" /etc/haproxy/haproxy.cfg
+
+sudo service haproxy restart
