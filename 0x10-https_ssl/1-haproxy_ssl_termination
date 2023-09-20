@@ -37,7 +37,6 @@ defaults
 frontend haproxy-main
     bind *:80
     bind *:443 ssl crt /etc/haproxy/certs/www.smylinwolf.tech.pem
-    redirect scheme https code 301 if !{ ssl_fc }
     option forwardfor
     default_backend nginx_webservers
 
